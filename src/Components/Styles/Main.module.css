@@ -1,0 +1,58 @@
+.main {
+    height: 100%;
+    background-color: #edf2f4;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2b2d42;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .evacuateButton {
+    background-color: #d80032;
+    color: white;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .evacuateButton:hover {
+    background-color: #ef233c;
+  }
+  
+  .evacuateButton span {
+    margin-left: 10px;
+  }
+  
+  .menuButton {
+    background-color: #2b2d42;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    flex-direction: column;
+  }
+  
+  .menuButton:hover {
+    background-color: #8d99ae;
+  }
+  
+  .menuButton span {
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,126 @@
+/* EmergencyContacts.module.css */
+
+.container {
+    min-height: 100vh;
+    background-color: #edf2f4;
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #2b2d42;
+  }
+  
+  .contactList {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contactCard {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contactInfo h3 {
+    font-weight: 600;
+    color: #2b2d42;
+  }
+  
+  .contactInfo p {
+    color: #8d99ae;
+  }
+  
+  .callButton {
+    background-color: #ef233c;
+    color: #fff;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .callButton:hover {
+    background-color: #d80032;
+  }
+  
+  .addButton {
+    margin: 15px 0;
+    background-color: #2b2d42;
+    color: #fff;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #8d99ae;
+  }
+  
+  .addForm {
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .formHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .formHeader h3 {
+    font-weight: 600;
+    color: #2b2d42;
+  }
+  
+  .closeButton {
+    color: #8d99ae;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .closeButton:hover {
+    color: #2b2d42;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #8d99ae;
+    border-radius: 0.25rem;
+  }
+  
+  .submitButton {
+    background-color: #ef233c;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #d80032;
+  }
