@@ -9,7 +9,7 @@ const Main = () => {
 
   if (currentPage) {
     const routes = {
-      WeatherRouting: "/weatherRoutingApp",
+      LiveLocation: "/liveLocationMap",
       NearbyShelters: "/nearbyShelters",
       EmergencyContacts: "/emergencyContacts",
       NotificationSettings: "/notifSettings",
@@ -27,11 +27,11 @@ const Main = () => {
 
   return (
     <div className={`${MainStyle.main} ${CommonStyle.dflex} ${CommonStyle.flexcolumn} ${CommonStyle.alignBoth}`}>
-      <h1 className={MainStyle.title}>Emergency Response App</h1>
+      <h1 className={MainStyle.title}>SafeScape!</h1>
       
       <button
         className={`${MainStyle.evacuateButton} ${CommonStyle.dflex} ${CommonStyle.alignBoth}`}
-        onClick={() => setCurrentPage("WeatherRouting")}
+        onClick={() => setCurrentPage("LiveLocation")}
       >
         <AlertTriangle size={24} />
         <span>Evacuate!</span>
