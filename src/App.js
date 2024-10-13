@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import "./App.css";
+import { setDefaults } from "react-geocode";
+import LatLong from "./Components/LatLong";
+import WeatherRoutingApp from "./Components/WeatherRoutingApp";
+import HurricaneRouteFinder from "./Components/HurricaneRouteFinder";
+import HurricaneHeatmap from "./Components/HurricaneHeatMap";
 
+
+setDefaults({
+  key: "AIzaSyAy2QWA7e4rwbjq0uBd30LQ7BXAKAE_OF0",
+  language: "en",
+  region: "es",
+});
 function App() {
+  const [location, setLocation] = useState("");
+  useEffect(() => {}, [location]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <WeatherRoutingApp /> */}
+      {/* <HurricaneRouteFinder /> */}
+      <HurricaneHeatmap />
     </div>
   );
 }
